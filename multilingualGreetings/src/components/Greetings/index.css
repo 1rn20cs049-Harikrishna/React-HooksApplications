@@ -1,0 +1,29 @@
+.greetings-page {
+  background-color: #ffffff;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.select-lang-container {
+  margin-top: 2%;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  margin-bottom: 2%;
+}
+
+.select-lang-btn {
+  padding: 4px 20px;
+  border: 1px solid #db1c48;
+  color: #db1c48;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 14px;
+  height: 34px;
+}
