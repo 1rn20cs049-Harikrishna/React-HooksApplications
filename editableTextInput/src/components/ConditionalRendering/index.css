@@ -1,0 +1,42 @@
+.conditional-rendering-page {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  background-color: #f5d0fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.conditional-rendering-container {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  min-height: 220px;
+}
+
+.input-box {
+  border-radius: 10px;
+  border: 1px solid #cbd2d9;
+  padding: 10px 20px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+.field-edit-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+.btn {
+  background-color: #d946ef;
+  outline: none;
+  padding: 10px 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}

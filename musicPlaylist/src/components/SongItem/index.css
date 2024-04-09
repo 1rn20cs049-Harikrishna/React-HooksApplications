@@ -1,0 +1,25 @@
+.song-item-container {
+  display: flex;
+  margin-top: 14px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 650px;
+  cursor: pointer;
+}
+.start-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+}
+.genre {
+  color: #3b82f6;
+}
+.delete-btn {
+  background: transparent;
+  color: #cbd5e1;
+  font-size: 24px;
+}
